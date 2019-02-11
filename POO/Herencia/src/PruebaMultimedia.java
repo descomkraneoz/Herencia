@@ -7,7 +7,7 @@ public class PruebaMultimedia {
         Multimedia peli2 = new Pelicula("Las dos torres", "Peter Jackson", "Viggo Mortensen", "Liv Tyler", 250, Multimedia.Formato.avi);
 
 
-        Multimedia disco = new Disco(" Led Zeppelin IV ", "Led Zepelin", "Atlantic", 43, Multimedia.Formato.cdAudio);
+        Multimedia disco = new Disco(" Led Zeppelin IV ", "Led Zepelin", "Atlantic", Disco.Genero.Rock ,43, Multimedia.Formato.cdAudio);
         System.out.println(disco);
 
         System.out.println(disco.iguales(peli));
